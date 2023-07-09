@@ -1,0 +1,360 @@
+
+/* Satting .topbar  */
+
+.topbar {
+    /* background-color: #fff; */
+    /* border: 1px solid red; */
+    border-bottom: 1px solid rgb(228, 228, 228);
+    font-weight: 100;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.topbar .navbar {
+    /* border: 1px solid red;; */
+    padding: 0 !important;
+    height: 20px;
+    flex-wrap: nowrap;
+    ;
+}
+
+.contact .text-primary {
+    color: #FF8D09 !important;
+}
+
+.topbar-nav {
+    /* border: 1px solid red; */
+    display: flex;
+    ;
+}
+
+.nav-item {
+    padding: 0 5px;
+    height: 36px;
+    display: flex;
+    /* height: 100%; */
+    align-items: center;
+}
+
+.nav-link span {
+    position: absolute;
+    top: 6px;
+    left: 57px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FF8D09;
+}
+
+
+/* working on account and cart */
+
+.dropdown {
+    outline: none;
+}
+
+.topbar-nav .dropdown .account-dropdown-menu {
+    top: 34px;
+    left: -35px;
+    display: none;
+    border: none;
+    border-radius: 0;
+
+}
+
+.topbar-nav .dropdown:hover .account-dropdown-menu {
+    pointer-events: auto;
+    display: block;
+
+}
+
+
+.topbar-nav .dropdown .dropdown-menu-edit {
+    border-radius: 0;
+    display: none;
+    height: 14rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    top: 36px;
+    left: -160px;
+    background-color: #ffffff;
+    border: none;
+    padding: 0;
+}
+
+.topbar-nav .dropdown .dropdown-menu-edit::-webkit-scrollbar {
+    width: 7px;
+}
+
+.topbar-nav .dropdown .dropdown-menu-edit::-webkit-scrollbar-thumb {
+    background-color: #084951;
+    border-radius: 5px;
+}
+
+.topbar-nav .dropdown .dropdown-menu-edit::-webkit-scrollbar-track {
+    background-color: #dbdbdb;
+}
+
+.topbar-nav .dropdown:hover .dropdown-menu-edit {
+    display: block;
+
+}
+
+.topbar .nav-item .dropdown-item {
+
+    display: flex;
+}
+
+.topbar .nav-item .dropdown-item img {
+    padding: 6px;
+}
+
+.topbar .nav-item .dropdown-item p {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.topbar .nav-item .dropdown-item h2 span {
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 5px;
+}
+
+.cart-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    margin: 0;
+    position: sticky;
+    bottom: 0px;
+    padding: 10px 0;
+}
+
+.cart-footer a{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.603);
+    transition: .2s;
+}
+.cart-footer a:hover{
+    color: #FF8D09;
+}
+
+/* working on lower nevbar */
+
+.middleBar {
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.inside-middleBar .row {
+    align-items: center !important;
+}
+
+
+.search-data-btn {
+    padding: 0 2px !important;
+    border-radius: 1px;
+}
+
+.search-btn {
+    background-color: #FF8D09;
+    border-radius: 2px;
+    transition: .2s;
+}
+
+.search-btn:hover {
+    background-color: #e0953f;
+}
+
+.search-btn input {
+    outline: none !important;
+    border: none !important;
+}
+
+.wislist {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wislist .header-item {
+    padding: 0 9px;
+}
+
+.wislist .header-item a {
+    text-decoration: none;
+    color: gray;
+}
+
+.wislist .header-item a i {
+    font-size: 19px;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.wislist .header-item a i:hover {
+    background-color: #FF8D09;
+    color: #fff;
+}
+
+.wislist .header-item a sub {
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    padding: 3px 5px;
+    background-color: #FF8D09;
+    top: 10px;
+    left: -10px;
+    font-size: 9px;
+}
+
+.wislist .header-item a .sub2 {
+    padding: 4px 7px !important;
+}
+
+
+/*  ******************nav-links navbar*********************** */
+
+.nav-links {
+    background-color: #ffffff;
+    padding: 2px 0;
+}
+
+.links-ul {
+    display: flex;
+}
+
+.links-ul li {
+    list-style: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: .2s;
+}
+
+.links-ul li:hover {
+    color: #FF8D09;
+
+}
+
+.dropdown-menu li :hover {
+    color: #FF8D09 !important;
+}
+
+
+/* mega-dropdown code is here-------------- */
+.nav-links .container ul li:hover {
+    background-color: transparent !important;
+
+}
+
+.nav-links .container .dropdown-menu {
+    width: 70%;
+    border: none;
+    border-radius: 2px;
+    padding: 30px 0 !important;
+}
+
+
+.mega-dropdown {
+    display: none !important;
+    width: 100%;
+    display: flex !important;
+}
+
+.mega-dropdown-items p {
+    color: #343338;
+    padding: 5px 9px;
+    transition: .2s;
+
+}
+
+.mega-dropdown-items p:hover {
+    background-color: rgba(239, 239, 239, 0.242);
+    transform: scale(1.02, 1.02);
+}
+
+.mega-dropdown-item {
+    /* border: 2px solid; */
+    padding-bottom: 5px;
+    color: #FF8D09;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100% !important;
+}
+
+.mega>.dropdown-menu {
+    width: auto !important;
+    display: none !important;
+}
+
+.mega:hover .dropdown-menu {
+    display: block !important;
+}
+
+/* header section end============ */
+
+
+
+
+
+/* footer section starts here--------------- */
+footer{
+    background-color: #343338;
+}
+.footer-row >img{
+    padding-bottom: 20px;
+}
+.footer-row h5{
+    font-weight: 600 !important;
+}
+.list-unstyled li a{
+    color:#868686;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.list-unstyled li a:hover{
+    color:  #FF8D09;
+}
+.products{
+    display: flex;
+    align-items:flex-start;
+    padding: 10px 0;
+    
+}
+.products h3{
+    cursor: pointer;
+    color:#868686;
+    font-size:18px ;
+    transition: .2s;
+    font-weight: 400;
+}
+
+.products h3:hover{
+    color: #FF8D09;
+}
+
+.products img{
+    border-radius: 10px;
+    transition: .2s;
+}
+.products img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.subscribe-btn button{
+    background-color: #FF8D09;
+    color: #fff;
+    font-weight: 500;
+    transition: .2s;
+}
+.subscribe-btn button:hover{
+    background-color: #e0953f;
+}
+
+
+

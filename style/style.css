@@ -1,0 +1,262 @@
+/* fonts--- */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+/* font rule ----> font-family: 'Rubik', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Disable hover and click background color change on li elements */
+
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* < !-- Featured produts images start --> */
+
+.featured-image {
+    margin: 50px 0;
+}
+
+.featured-image .container .row .col-sm-3 img {
+    width: 19rem !important;
+    height: 9rem;
+    border-radius: 5px;
+}
+
+/* <!-- .featured list start  --> */
+.featured-list .container .row {
+    padding: 15px 0;
+    border: 2px solid #e1e1e1;
+    width: 99.5%;
+    border-radius: 3px;
+}
+
+.featured-list .container .row .col-sm-2 {
+    /* border: 2px solid; */
+    padding: 10px 10px;
+    margin: 0 8px;
+
+}
+
+.featured-icon {
+    margin-right: 20px;
+}
+
+.featured-icon i {
+    color: #FF8D09;
+    font-size: 30px;
+}
+
+.featured-detail h6 {
+    font-size: 15px;
+    margin-bottom: -0.2rem;
+}
+
+.featured-detail span {
+    font-size: 12px;
+}
+
+.divider::after {
+    content: "";
+    display: block;
+    height: 90%;
+    width: 1px;
+    background-color: #e1e1e1;
+    margin-left: 10px;
+}
+
+
+
+/* best seller start  */
+.best-seller .product-item {
+    text-align: center;
+}
+
+.best-seller .owl-data {
+    padding: 20px 0;
+}
+
+.product-img {
+    box-shadow: 1px 2px 25px #e3e3e6;
+    /* border: 1px solid #f1eeee; */
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-img img{
+    transition: .3s;
+}
+.product-item:hover img{
+    transform: scale(1.2,1.2);
+}
+
+
+.btns {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    font-size: 15px;
+    transition: all .25s ease-in-out;
+}
+
+.btns button {
+    font-weight: 500;
+    padding: 10px 0;
+    border: none;
+    background-color: #FF8D09;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-item:hover .btns{
+    bottom: 0;
+}
+
+
+
+
+.product-name {
+    transition: all .3s ease-in-out;
+}
+
+.product-name h3 {
+    font-size: 22px !important;
+
+}
+
+.product-name:hover {
+    color: #FF8D09 !important;
+}
+
+.product-price {
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+.rating {
+    color: #FF8D09 !important;
+    font-size: 13px;
+}
+
+.product-item {
+    width: 180px;
+}
+
+/* <!-- best deal section started here  --> */
+
+.best-deal {
+    /* height: 100vh; */
+    background: url(../img/deal-bg.jpg) top center no-repeat;
+    background-size: cover;
+    padding: 100px 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.best-deal .owl-data {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 50px 0;
+}
+.best-deal .product-item {
+    width: 155px;
+}
+
+/* ----------Countdown timer----------- */
+
+.countdown-timer {
+    background-color: #FF8D09 !important;
+    background: var(--orange);
+    padding: 30px 50px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 0; 
+    z-index: 33;
+    right: 0;
+}
+.countdown-timer .card{
+    border: none;
+}
+
+.countdown-timer .card-body{
+    padding:2px !important;
+    font-size: 2em;
+    background-color: #FF8D09;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.countdown-timer .card-text{
+    font-size: .5em;
+    display: block;
+
+}
+
+
+
+/* <!-- testimonial section start --> */
+.testimonial-section {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+  }
+  
+  .testimonial {
+    
+    color: #FF8D09;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-name {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+
+  .testimonial-text{
+    width: 50%;
+  }
+
+  .testimonial-designation{
+    font-size: 22px !important;
+    font-weight: 500;
+  }
+#testimonial-carousel button span{
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, 0.314) ;
+    border: 2px solid rgba(0, 0, 0, 0.314);
+  }
+
